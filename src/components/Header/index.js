@@ -7,7 +7,7 @@ function Header(props) {
   } = props
   return (
     <header>
-      <p>Griffin's Portfolio</p>
+      <p>Griffin Honeycutt</p>
       <Navigation
         elements={elements}
         setElement={setElement}
