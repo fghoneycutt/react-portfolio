@@ -7,8 +7,8 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import "../src/index.css";
 function App() {
-  const [elements] = useState(["Resume", "Portfolio", "Contact", 'About']);
-  const [element, setElement] = useState(elements[0]);
+  const [elements] = useState(["Resume", "Contact", "Portfolio", 'About']);
+  const [element, setElement] = useState("About");
   const render = () => {
     if (element === "About") {
       return <About></About>

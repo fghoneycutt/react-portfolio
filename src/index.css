@@ -2,19 +2,19 @@
   background-color: #282828;
   color: white;
 }
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #2a4e6c;
 }
-li{
+.nav li{
   float: right;
   margin-left: 5px;
   margin-right: 5px;
 }
-li a {
+.nav li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -23,4 +23,14 @@ li a {
 }
 li a:hover {
   background-color: #111;
+}
+footer{
+  text-align: center;
+}
+footer a img{
+  padding: 30px;
+  width: 75px;
+}
+.portfolio-img{
+  width: 30%;
 }

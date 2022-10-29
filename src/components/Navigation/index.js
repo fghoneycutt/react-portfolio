@@ -7,7 +7,7 @@ function Navigation(props) {
     } = props
     return (
       <nav>
-        <ul>
+        <ul className="nav">
             {elements.map((selected) => (
                 <li key={selected}>
                     <span onClick={() => {
