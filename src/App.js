@@ -7,8 +7,22 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import "../src/index.css";
 function App() {
-  const [elements] = useState(["About", "Resume", "Contact", "Portfolio"]);
+  const [elements] = useState(["Resume", "Portfolio", "Contact", 'About']);
   const [element, setElement] = useState(elements[0]);
+  const render = () => {
+    if (element === "About") {
+      return <About></About>
+    }
+    if (element === "Portfolio") {
+      return <Project></Project>
+    }
+    if (element === "Contact") {
+      return <Contact></Contact>
+    }
+    if (element === "Resume") {
+      return <Resume></Resume>
+    }
+  }
   return (
     <div>
       <Header
@@ -17,10 +31,7 @@ function App() {
         element={element}
       ></Header>
       <main>
-        <About></About>
-        <Project></Project>
-        <Contact></Contact>
-        <Resume></Resume>
+        {render()}
       </main>
       <Footer></Footer>
     </div>
