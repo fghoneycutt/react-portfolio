@@ -1,10 +1,10 @@
 *{
-  color: white;
   margin: 0%;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
   background-color: #404040;
+  color: white;
 }
 .all{
   margin: 40px;
@@ -12,17 +12,20 @@ body{
   border-radius: 10px;
   padding: 10px;
 }
+/* Nav */
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #2a4e6c;
+  border-radius: 10px;
+  padding: 5px;
 }
 .nav li{
   float: right;
-  margin-left: 5px;
   margin-right: 5px;
+  padding: 10px;
   cursor: pointer;
 }
 .nav li a {
@@ -32,8 +35,16 @@ body{
   text-decoration: none;
   background-color: #2a4e6c;
 }
-li a:hover {
-  background-color: #111;
+.nav li:hover{
+  background-color: #212a2e;
+  border-radius: 10px;
+}
+.About, .activeTab{
+  background-color: #212a2e;
+  border-radius: 10px;
+}
+.hidden{
+  display:none;
 }
 /* About Section */
 .about-container{
@@ -45,10 +56,12 @@ li a:hover {
 .griffin-pic{
   border-radius: 50%;
   border: solid 5px #2a4e6c;
+  max-width: 25vw;
 }
 .about-text{
   display: flex;
-  
+  font-size:x-large;
+  margin: auto;
 }
 /* Footer */
 footer{
@@ -58,9 +71,9 @@ footer a img{
   padding: 15px;
   width: 75px;
 }
-.footer-img:hover{
+/* .footer-img:hover{
 
-}
+} */
 /* Portfolio */
 .image-grid{
   --gap:16px;
@@ -78,4 +91,7 @@ footer a img{
   height: 100%;
   object-fit: cover;
   border: solid 3px #2a4e6c;
+}
+#contact-form{
+  width: 100%;
 }

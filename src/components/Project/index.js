@@ -10,7 +10,7 @@ function Project() {
       >
         <img
           className="portfolio-img"
-          src="./assets/images/genrebuddy.png"
+          src="./assets/images/genre.jpeg"
           alt="genre buddy landing page"
         ></img>
       </a>

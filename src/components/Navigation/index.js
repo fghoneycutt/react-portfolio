@@ -1,5 +1,14 @@
 import React from "react";
-
+function setNewHighlight(selected) {
+    var removeActiveAbout = document.querySelector('.About');
+    if (removeActiveAbout) {
+        removeActiveAbout.classList.remove('About');
+    }
+    var removeActive = document.querySelector('.activeTab');
+    removeActive.classList.remove('activeTab');
+    var highlight = document.getElementById(selected);
+    highlight.className = 'activeTab'
+}
 function Navigation(props) {
     const {
         elements = [],
@@ -8,11 +17,13 @@ function Navigation(props) {
     return (
       <nav>
         <ul className="nav">
-            {elements.map((selected) => (
-                <li key={selected}>
-                    <span onClick={() => {
-                        setElement(selected)
-                    }} >
+                {elements.map((selected) => (
+                <li className={selected} id={selected} key={selected}>
+                    <span
+                        onClick={() => {
+                            setElement(selected);
+                            setNewHighlight(selected);
+                        }}>
                         {selected}
                     </span>
                 </li>
