@@ -71,9 +71,12 @@ footer a img{
   padding: 15px;
   width: 75px;
 }
-/* .footer-img:hover{
-
-} */
+.twitter{
+  border-radius: 25px;
+}
+.footer-img:hover{
+  filter: invert(100%)
+}
 /* Portfolio */
 .image-grid{
   --gap:16px;
@@ -92,6 +95,16 @@ footer a img{
   object-fit: cover;
   border: solid 3px #2a4e6c;
 }
-#contact-form{
-  width: 100%;
+/* Contact */
+.form-input{
+  width: 50%;
+  border-radius: 5px;
+  border:none;
+}
+.submitBtn{
+  border-radius:5px;
+  border:none;
+  background: #2a4e6c;
+  padding: 10px;
+  margin-top: 10px;
 }

@@ -5,7 +5,9 @@ function setNewHighlight(selected) {
         removeActiveAbout.classList.remove('About');
     }
     var removeActive = document.querySelector('.activeTab');
-    removeActive.classList.remove('activeTab');
+    if (removeActive) {
+        removeActive.classList.remove('activeTab');
+    }
     var highlight = document.getElementById(selected);
     highlight.className = 'activeTab'
 }

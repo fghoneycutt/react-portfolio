@@ -7,7 +7,7 @@ function Header(props) {
   } = props
   return (
     <header>
-      <p>Griffin Honeycutt</p>
+      <h1>Griffin Honeycutt</h1>
       <Navigation
         elements={elements}
         setElement={setElement}

@@ -21,8 +21,23 @@ function Footer() {
           alt="linkedin logo"
         ></img>
       </a>
+      <a
+        href="https://twitter.com/GriffinHoneycu1"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="footer-img  twitter"
+          src="./assets/images/twitter.png"
+          alt="twitter"
+        ></img>
+      </a>
       <a href="mailto:fghoneycutt@gmail.com" target="_blank" rel="noreferrer">
-        <img className="footer-img" src="./assets/images/email.svg" alt="email logo"></img>
+        <img
+          className="footer-img"
+          src="./assets/images/email.svg"
+          alt="email logo"
+        ></img>
       </a>
     </footer>
   );
