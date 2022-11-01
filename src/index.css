@@ -16,14 +16,14 @@ body{
 .nav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #2a4e6c;
   border-radius: 10px;
   padding: 5px;
+  
 }
 .nav li{
-  float: right;
+  float: left;
   margin-right: 5px;
   padding: 10px;
   cursor: pointer;
