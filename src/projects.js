@@ -27,4 +27,11 @@ export const projects = [
     deployedLink: "https://fghoneycutt.github.io/county-game/",
     ghLink: "https://github.com/fghoneycutt/county-game",
   },
+  {
+    title: "Gear Swap",
+    image: "gear-swap.png",
+    alt: "gear swap",
+    deployedLink: "https://obscure-sea-74366.herokuapp.com/",
+    ghLink: "https://github.com/bpiper91/gear-swap",
+  },
 ];
