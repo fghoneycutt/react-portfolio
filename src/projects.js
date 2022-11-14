@@ -20,13 +20,13 @@ export const projects = [
     deployedLink: "https://griffin-tech-blog.herokuapp.com/",
     ghLink: "https://github.com/fghoneycutt/tech-blog",
   },
-  // {
-  //   title: "County Game",
-  //   image: "countygame.png",
-  //   alt: "county game",
-  //   deployedLink: "https://fghoneycutt.github.io/county-game/",
-  //   ghLink: "https://github.com/fghoneycutt/county-game",
-  // },
+  {
+    title: "County Game",
+    image: "countygame.png",
+    alt: "county game",
+    deployedLink: "https://fghoneycutt.github.io/county-game/",
+    ghLink: "https://github.com/fghoneycutt/county-game",
+  },
   {
     title: "Gear Swap",
     image: "gear-swap.png",
